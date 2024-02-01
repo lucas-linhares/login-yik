@@ -1,0 +1,21 @@
+:root {
+  --color-white: #ffffff;
+  --color-beige: #f7ece1;
+  --color-ice-white: #f5f6fa;
+  --color-gray: #383838;
+  --color-purple-1: #cac4ce;
+  --color-purple-2: #8d86c9;
+  --color-purple-3: #725ac1;
+  --color-purple-4: #342c53;
+  --color-purple-5: #2c2645;
+  --fsize-small: 14px;
+  --fsize-normal: 16px;
+  --fsize-xnormal: 18px;
+  --fsize-medium: 24px;
+  --fsize-large: 37px;
+  --spacing-10: 10px;
+  --spacing-30: 30px;
+  --spacing-35: 35px;
+  --spacing-50: 50px;
+  --spacing-90: 90px;
+}
