@@ -10,10 +10,11 @@
 <body>
   <main>
     <div class="main-wrap">
+
       <div class="split-wrap">
-        <section class="split-wrap__design">
-          <div class="split-wrap__illustration">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" class="svg-illustration">
+        <section class="design">
+          <div class="design__ct">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" class="design__svg">
               <g id="freepik--Floor--inject-9">
                 <ellipse id="freepik--floor--inject-9" cx="250" cy="350.79" rx="242.03" ry="139.73" style="fill:#fafafa"></ellipse>
               </g>
@@ -2022,8 +2023,8 @@
           </div>
         </section>
 
-        <section class="split-wrap__content">
-          <div class="split-wrap__btext">
+        <section class="content">
+          <div class="content__ct">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut natus corporis, delectus harum possimus culpa suscipit fugit aperiam dolor, voluptatem nobis molestias ea sed. Omnis repellendus perferendis reiciendis architecto voluptatem!
             </p>
@@ -2032,16 +2033,35 @@
       </div>
 
       <div class="split-wrap">
-        <div class="split-wrap__ctform">
-
+        <div class="split-wrap__formct">
           <form id="lg-form" class="split-wrap__form">
-            <div class="split-wrap__hdform">
-              <h2>Bem-vindo de volta</h2>
-              <h1>Faça seu login no Yik</h1>
-            </div>
 
+            <section class="form-hd">
+              <div class="form-hd__ct">
+                <h2>Bem-vindo de volta</h2>
+                <h1>Faça seu login no Yik</h1>
+              </div>
+            </section>
 
+            <section class="lg-form">
+              <div class="lg-form__ct">
+                <label for="usr-email">E-mail</label>
+                <input type="email" name="email" id="usr-email" placeholder="E-mail" tabindex="1" >
+              </div>
 
+              <div class="lg-form__ct">
+                <label for="usr-pwd">Senha</label>
+                <input type="password" name="usrpwd" id="usr-pwd" placeholder="Senha" tabindex="2">
+                <small class="lg-form__rstpwd"><a href="#">Esqueci minha senha</a></small>
+              </div>
+            </section>
+
+            <section class="st-button">
+              <div class="st-button__ct">
+                <button type="submit" id="etr-button">Entrar</button>
+                <p class="rgtr">É novo no Yik? <a href="#">Registre-se</a></p>
+              </div>
+            </section>
           </form>
         </div>
       </div>
