@@ -28,4 +28,19 @@
 
 body {
   font: var(--fsize-normal) 'Urbanist', sans-serif;
+  background: var(--color-ice-white);
+}
+
+.main-wrap {
+  display: flex;
+  height: 100vh;
+  margin: 0 var(--spacing-30);
+}
+
+.split-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
 }
