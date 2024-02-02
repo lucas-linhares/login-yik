@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --color-white: #ffffff;
   --color-beige: #f7ece1;
@@ -18,4 +24,8 @@
   --spacing-35: 35px;
   --spacing-50: 50px;
   --spacing-90: 90px;
+}
+
+body {
+  font: var(--fsize-normal) 'Urbanist', sans-serif;
 }
