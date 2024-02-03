@@ -24,9 +24,12 @@
   --line-height-1: 1.5;
   --line-height-2: 1.6;
   --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-15: 15px;
   --spacing-30: 30px;
   --spacing-35: 35px;
   --spacing-50: 50px;
+  --spacing-75: 75px;
   --spacing-90: 90px;
 }
 
@@ -51,7 +54,7 @@ body {
 
 .design .design__ct {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: var(--spacing-10);
 }
 
 .design .design__ct svg {
@@ -64,16 +67,29 @@ body {
 
 .content .content__ct h2 {
   font-size: var(--fsize-x2normal);
-  margin-bottom: 12px;
+  margin-bottom: var(--spacing-12);
+  line-height: var(--line-height-1);
 }
 
 .content .content__ct p {
   font-size: var(--fsize-normal);
+  line-height: var(--line-height-1);
 }
 
 .content .content__ct h2, p {
   text-align: center;
   color: var(--color-gray);
-  line-height: var(--line-height-1);
-  padding: 0 75px;
+  padding: 0 var(--spacing-75);
+}
+
+.split-wrap__formct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 510px;
+  height: 498px;
+  padding: var(--spacing-35) var(--spacing-50);
+  background: var(--color-white);
+  border-radius: 8px;
 }
