@@ -17,6 +17,7 @@
   --fsize-small: 14px;
   --fsize-normal: 16px;
   --fsize-xnormal: 18px;
+  --fsize-x2normal: 20px;
   --fsize-medium: 24px;
   --fsize-large: 37px;
   --line-height-normal: normal;
@@ -49,7 +50,7 @@ body {
 }
 
 .design .design__ct {
-  width: 90%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -61,8 +62,18 @@ body {
   width: 100%;
 }
 
+.content .content__ct h2 {
+  font-size: var(--fsize-x2normal);
+  margin-bottom: 12px;
+}
+
 .content .content__ct p {
+  font-size: var(--fsize-normal);
+}
+
+.content .content__ct h2, p {
   text-align: center;
+  color: var(--color-gray);
   line-height: var(--line-height-1);
   padding: 0 75px;
 }
