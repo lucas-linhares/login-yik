@@ -19,6 +19,9 @@
   --fsize-xnormal: 18px;
   --fsize-medium: 24px;
   --fsize-large: 37px;
+  --line-height-normal: normal;
+  --line-height-1: 1.5;
+  --line-height-2: 1.6;
   --spacing-10: 10px;
   --spacing-30: 30px;
   --spacing-35: 35px;
@@ -47,15 +50,19 @@ body {
 
 .design .design__ct {
   width: 90%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .design .design__ct svg {
   width: 100%;
 }
 
+.content .content__ct {
+  width: 100%;
+}
+
 .content .content__ct p {
   text-align: center;
-  line-height: 1.64;
+  line-height: var(--line-height-1);
   padding: 0 75px;
 }
