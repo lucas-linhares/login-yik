@@ -44,3 +44,18 @@ body {
   flex-direction: column;
   width: 50%;
 }
+
+.design .design__ct {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.design .design__ct svg {
+  width: 100%;
+}
+
+.content .content__ct p {
+  text-align: center;
+  line-height: 1.64;
+  padding: 0 75px;
+}
