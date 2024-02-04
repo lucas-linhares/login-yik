@@ -40,6 +40,7 @@ body {
 
 .main-wrap {
   display: flex;
+  flex-direction: row;
   height: 100vh;
   margin: 0 var(--spacing-30);
 }
@@ -67,18 +68,19 @@ body {
 
 .content .content__ct h2 {
   font-size: var(--fsize-x2normal);
+  color: var(--color-purple-3);
   margin-bottom: var(--spacing-12);
   line-height: var(--line-height-1);
 }
 
 .content .content__ct p {
   font-size: var(--fsize-normal);
+  color: var(--color-gray);
   line-height: var(--line-height-1);
 }
 
 .content .content__ct h2, p {
   text-align: center;
-  color: var(--color-gray);
   padding: 0 var(--spacing-75);
 }
 
@@ -92,4 +94,28 @@ body {
   padding: var(--spacing-35) var(--spacing-50);
   background: var(--color-white);
   border-radius: 8px;
+}
+
+.split-wrap__form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  padding: 0;
+}
+
+.form-hd__ct {
+  text-align: center;
+}
+
+.form-hd__ct h2 {
+  font-size: var(--fsize-medium);
+  color: var(--color-gray);
+  line-height: var(--line-height-1);
+}
+
+.form-hd__ct h1 {
+  font-size: var(--fsize-large);
+  color: var(--color-purple-3);
+  line-height: var(--line-height-1);
 }
