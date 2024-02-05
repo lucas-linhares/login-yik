@@ -34,7 +34,7 @@
 }
 
 body {
-  font: var(--fsize-normal) 'Urbanist', sans-serif;
+  font: 400 var(--fsize-normal) 'Urbanist', sans-serif;
   background: var(--color-ice-white);
 }
 
@@ -73,6 +73,7 @@ body {
 
 .content .content__ct h2 {
   font-size: var(--fsize-x2normal);
+  font-weight: 600;
   color: var(--color-purple-3);
   margin-bottom: var(--spacing-12);
   line-height: var(--line-height-1);
@@ -80,6 +81,7 @@ body {
 
 .content .content__ct p {
   font-size: var(--fsize-normal);
+  font-weight: 400;
   color: var(--color-gray);
   line-height: var(--line-height-1);
 }
@@ -89,9 +91,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 510px;
-  height: 498px;
-  padding: var(--spacing-35) 50px;
+  width: 480px;
+  height: 478px;
+  padding: var(--spacing-35) 64px;
   background: var(--color-white);
   border-radius: 8px;
 }
@@ -109,13 +111,15 @@ body {
 }
 
 .form-hd__ct h2 {
-  font-size: var(--fsize-medium);
+  font-size: 21px;
+  font-weight: 600;
   color: var(--color-gray);
   line-height: var(--line-height-1);
 }
 
 .form-hd__ct h1 {
-  font-size: var(--fsize-large);
+  font-size: 35px;
+  font-weight: 600;
   color: var(--color-purple-3);
   line-height: var(--line-height-1);
 }
@@ -125,6 +129,9 @@ body {
 }
 
 .lg-form__ct input {
-  width: 50%;
-  text-align: center;
+  width: 90%;
+  height: 50px;
+  font-size: 16px;
+  line-height: var(--line-height-normal);
+  margin: 0 auto;
 }
