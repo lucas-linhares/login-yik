@@ -66,6 +66,11 @@ body {
   width: 100%;
 }
 
+.content .content__ct > :nth-child(n) {
+  text-align: center;
+  padding: 0 var(--spacing-75);
+}
+
 .content .content__ct h2 {
   font-size: var(--fsize-x2normal);
   color: var(--color-purple-3);
@@ -79,11 +84,6 @@ body {
   line-height: var(--line-height-1);
 }
 
-.content .content__ct h2, p {
-  text-align: center;
-  padding: 0 var(--spacing-75);
-}
-
 .split-wrap__formct {
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ body {
   align-items: center;
   width: 510px;
   height: 498px;
-  padding: var(--spacing-35) var(--spacing-50);
+  padding: var(--spacing-35) 50px;
   background: var(--color-white);
   border-radius: 8px;
 }
@@ -118,4 +118,13 @@ body {
   font-size: var(--fsize-large);
   color: var(--color-purple-3);
   line-height: var(--line-height-1);
+}
+
+.lg-form__ct > :nth-child(n) {
+  display: block;
+}
+
+.lg-form__ct input {
+  width: 50%;
+  text-align: center;
 }
