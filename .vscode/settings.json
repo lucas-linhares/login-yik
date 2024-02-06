@@ -7,25 +7,18 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
 
   // explorer
   "explorer.compactFolders": false,
-
+  
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
-
-  // prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.enable": true,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
-  "prettier.semi": true,
-
+  
   // terminal
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.profiles.windows": {
