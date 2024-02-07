@@ -100,15 +100,13 @@ body {
 .split-wrap__form {
   display: flex;
   flex-direction: column;
-  /* gap: 37px; */
+  justify-content: space-between;
   width: 100%;
+  height: 100%;
   padding: 0;
 }
 
 .form-hd__ct {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
