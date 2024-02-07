@@ -15,6 +15,7 @@
   --color-purple-4: #342c53;
   --color-purple-5: #2c2645;
   --fsize-small: 14px;
+  --fsize-small2: 15px;
   --fsize-normal: 16px;
   --fsize-xnormal: 18px;
   --fsize-x2normal: 20px;
@@ -80,7 +81,7 @@ body {
 }
 
 .content .content__ct p {
-  font-size: var(--fsize-normal);
+  font-size: var(--fsize-small2);
   color: var(--color-gray);
   line-height: var(--line-height-1);
 }
@@ -124,9 +125,18 @@ body {
   line-height: var(--line-height-1);
 }
 
+.lg-form div:first-child {
+  margin-bottom: 10px;
+}
+
+.lg-form div:last-child {
+  margin-top: 20px;
+}
+
 .lg-form .lg-form__ct input {
   width: 100%;
   height: 50px;
   font-size: 16px;
+  background: var(--color-ice-white);
+  border: none;
 }
-
