@@ -100,7 +100,7 @@ body {
 .split-wrap__form {
   display: flex;
   flex-direction: column;
-  gap: 37px;
+  /* gap: 37px; */
   width: 100%;
   padding: 0;
 }
@@ -124,12 +124,6 @@ body {
   font-weight: 700;
   color: var(--color-purple-3);
   line-height: var(--line-height-1);
-}
-
-.lg-form .lg-form__ct {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .lg-form .lg-form__ct input {
