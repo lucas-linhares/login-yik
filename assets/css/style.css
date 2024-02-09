@@ -144,7 +144,7 @@ body {
   height: 50px;
   font-size: 16px;
   background: var(--color-ice-white);
-  padding: 0 12px;
+  padding: 0 15px;
   outline: 0;
   border: none;
   border-radius: 5px;
@@ -152,9 +152,20 @@ body {
 
 .lg-form .lg-form__ct label {
   position: absolute;
+  color: #7a7a77;
   top: 50%;
-  left: 12px;
+  left: 15px;
   transform: translateY(-50%);
+  user-select: none;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+}
+
+.lg-form .lg-form__ct input:focus ~ label,
+.lg-form .lg-form__ct input:valid ~ label {
+  transform: translateY(-200%);
+  font-size: 14px;
 }
 
 .lg-form .lg-form__ct small {
@@ -199,4 +210,3 @@ body {
 .sign-up .sign-up__pgh a:hover {
   opacity: 1;
 }
-
